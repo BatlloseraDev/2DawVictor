@@ -39,6 +39,8 @@ for datos in informacionParseada:
 #with open("nuevo_fichero.txt", "a") as f:
  #   f.write(fecha)
 
+#rutaEscritura = "log"
+#la variable rutaEscritura no la usas luego en la línea 23 o haces a mano. Cuidado creo que nos podriamos ahorrar desde la lina 28 pero esta bien.
 
 
 
