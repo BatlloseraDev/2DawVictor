@@ -5,7 +5,7 @@ import os
 #Insert into Personas (id,Nombre, Apellidos, fecha_nacimiento, calle, codigo_postal, numero, movil) values (seq_personas.nextval("personas_seq", "Francisco", "Alia", "04/05/1992","Falsa","123","+34666666666");
 
 rutaLectura = "Libro2.txt"
-rutaEscritura = "log"
+rutaEscritura = "logs"
 
 informacionParseada =[]
 
@@ -20,7 +20,7 @@ with open(rutaLectura,"r") as f:
 
 for datos in informacionParseada:
     fecha = datetime.now().strftime("%d%m%Y")
-    nombre_fichero = f"logs/{fecha}_Persona.log"
+    nombre_fichero = f"{rutaEscritura}/{fecha}_Persona.log"
     if os.path.exists(nombre_fichero):
         with open(nombre_fichero,"a") as f:
             formateado = f"Insert into Personas (id,Nombre, Apellidos, fecha_nacimiento, calle, codigo_postal, numero, movil) values (seq_personas.nextval(personas_seq, {datos[0]}, {datos[1]}, {datos[2]},{datos[3]},{datos[4]},{datos[5]});\n"
