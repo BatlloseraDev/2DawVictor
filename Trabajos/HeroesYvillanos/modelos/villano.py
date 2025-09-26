@@ -1,6 +1,6 @@
 
 import random as r
-from clases.persona import Persona
+from modelos.persona import Persona
 
 class Villano(Persona):
 
@@ -16,13 +16,13 @@ class Villano(Persona):
 
     def __str__(self):
         base = super().__str__()
-        return f"Villano: {base} [Chatgepeteador]{self.__chagepeteador}, [Entregador Tardio]{self.__entregadorTardio}, [Ausencias]{self.__ausencias}, [Hablador]{self.__hablador}. [Puntuacion total] {self.__puntuacion_total}"
+        return f"Villano: {base} [Chatgepeteador]{self.__chagepeteador}, [Entregador Tardio]{self.__entregadorTardio}, [Ausencias]{self.__ausencias}, [Hablador]{self.__hablador}. [Puntuacion total] {self._puntuacion_total}"
 
 
     def __calcular_puntuacion(self):
         contador = round(
             self.__chagepeteador * 0.5 + self.__entregadorTardio * 0.3 + self.__ausencias * 0.1 + self.__hablador * 0.1) #ecuacion de importacia de atributos
-        self.__puntuacion_total = contador
+        self._puntuacion_total = contador
 
 
 

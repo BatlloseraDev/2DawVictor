@@ -1,6 +1,6 @@
 import random as r
 
-from clases.persona import Persona
+from modelos.persona import Persona
 
 class Heroe(Persona):
 
@@ -16,14 +16,14 @@ class Heroe(Persona):
         self.__calcular_puntuacion()
 
     def __calcular_puntuacion(self):
-        contador = round(
+        operacion = round(
             self.__codigoLimpio * 0.4 + self.__bienDocumentado * 0.1 + self.__gitgod * 0.2 + self.__arquitecto * 0.2 + self.__detallista * 0.1) #ecuacion de importacia de atributos
-        self.__puntuacion_total = contador
+        self._puntuacion_total = operacion
 
 
     def __str__(self):
         base = super().__str__()
-        return f"Heroe: {base} [Codigo Limpio]{self.__codigoLimpio}, [Bien Documentado]{self.__bienDocumentado}, [Git God]{self.__gitgod}, [Arquitecto]{self.__arquitecto}, [Detallista]{self.__detallista}. [Puntuacion total] {self.__puntuacion_total}"
+        return f"Heroe: {base} [Codigo Limpio]{self.__codigoLimpio}, [Bien Documentado]{self.__bienDocumentado}, [Git God]{self.__gitgod}, [Arquitecto]{self.__arquitecto}, [Detallista]{self.__detallista}. [Puntuacion total] {self._puntuacion_total}"
 
 
     #getter and setter

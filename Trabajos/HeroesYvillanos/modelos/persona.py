@@ -6,7 +6,7 @@ class Persona:
         self.__fecha_nacimiento = fecha_nacimiento
         Persona.contador += 1
         self.__identificador = Persona.contador
-        self.__puntuacion_total = 0
+        self._puntuacion_total = 0
 
     def __str__(self):
         return f"[Nombre y Apellidos] {self.__nombre} {self.__apellidos} [Fecha Nac] {self.__fecha_nacimiento}"
@@ -14,7 +14,7 @@ class Persona:
 
     @property #solo get ya que set va a ser calculado por la propia clase al momento de crearse.
     def puntuacion_total(self):
-        return self.__puntuacion_total
+        return self._puntuacion_total
 
     #getters and setters
     @property
@@ -34,12 +34,12 @@ class Persona:
         self.__apellidos = value
 
     @property
-    def fecha_nac(self):
-        return self.__fecha_nac
+    def fecha_nacimiento(self):
+        return self.__fecha_nacimiento
 
-    @fecha_nac.setter
-    def fecha_nac(self, value):
-        self.__fecha_nac = value
+    @fecha_nacimiento.setter
+    def fecha_nacimiento(self, value):
+        self.__fecha_nacimiento = value
 
     @property
     def identificador(self):

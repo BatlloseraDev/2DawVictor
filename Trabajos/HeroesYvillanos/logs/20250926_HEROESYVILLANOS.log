@@ -1,0 +1,48 @@
+[26092025 20:42:21] ---- [INFO] ---- Iniciado el sistema
+[26092025 20:42:27] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[26092025 20:56:55] ---- [INFO] ---- Iniciado el sistema
+[26092025 20:56:58] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[26092025 20:57:09] ---- [INFO] ---- Heroe: [Nombre y Apellidos] pepe villuela [Fecha Nac] 1212-12-12 00:00:00 [Codigo Limpio]16, [Bien Documentado]6, [Git God]5, [Arquitecto]92, [Detallista]23. [Puntuacion total] 29
+[26092025 20:57:39] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[26092025 20:58:20] ---- [INFO] ---- Iniciado el sistema
+[26092025 20:58:23] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[26092025 20:58:32] ---- [INFO] ---- Heroe: [Nombre y Apellidos] pepe villuela [Fecha Nac] 1212-12-12 00:00:00 [Codigo Limpio]70, [Bien Documentado]16, [Git God]87, [Arquitecto]81, [Detallista]48. [Puntuacion total] 68
+[26092025 20:58:40] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[26092025 20:59:01] ---- [INFO] ---- Iniciado el sistema
+[26092025 20:59:03] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[26092025 20:59:10] ---- [INFO] ---- Heroe: [Nombre y Apellidos] pepe villuela [Fecha Nac] 1212-12-12 00:00:00 [Codigo Limpio]49, [Bien Documentado]42, [Git God]32, [Arquitecto]17, [Detallista]7. [Puntuacion total] 34
+[26092025 20:59:32] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[26092025 21:02:19] ---- [INFO] ---- Iniciado el sistema
+[26092025 21:02:23] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[26092025 21:02:34] ---- [INFO] ---- Heroe: [Nombre y Apellidos] pepe villuela [Fecha Nac] 1212-12-12 00:00:00 [Codigo Limpio]84, [Bien Documentado]38, [Git God]20, [Arquitecto]50, [Detallista]72. [Puntuacion total] 59
+[26092025 21:03:13] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[26092025 21:03:14] ---- [INFO] ---- Iniciado el sistema
+[26092025 21:03:18] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[26092025 21:03:24] ---- [INFO] ---- Heroe: [Nombre y Apellidos] pepe villuela [Fecha Nac] 1212-12-12 00:00:00 [Codigo Limpio]56, [Bien Documentado]49, [Git God]100, [Arquitecto]91, [Detallista]73. [Puntuacion total] 73
+[26092025 21:05:02] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[26092025 21:06:11] ---- [INFO] ---- Iniciado el sistema
+[26092025 21:06:14] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[26092025 21:06:23] ---- [ERROR] ---- 'super' object has no attribute '_Heroe__puntuacion_total'
+[26092025 21:06:23] ---- [INFO] ---- Cerrando el sistema automaticamente
+[26092025 21:09:18] ---- [INFO] ---- Iniciado el sistema
+[26092025 21:09:20] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[26092025 21:09:32] ---- [ERROR] ---- 'Heroe' object has no attribute '_Heroe__puntuacion_total'
+[26092025 21:09:32] ---- [INFO] ---- Cerrando el sistema automaticamente
+[26092025 21:17:40] ---- [INFO] ---- Iniciado el sistema
+[26092025 21:17:44] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[26092025 21:17:58] ---- [INFO] ---- Heroe: [Nombre y Apellidos] klark kent [Fecha Nac] 1212-12-12 00:00:00 [Codigo Limpio]93, [Bien Documentado]50, [Git God]11, [Arquitecto]89, [Detallista]16. [Puntuacion total] 64
+[26092025 21:18:51] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[26092025 21:29:55] ---- [INFO] ---- Iniciado el sistema
+[26092025 21:30:00] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[26092025 21:30:20] ---- [INFO] ---- Heroe: [Nombre y Apellidos] Klark Kent [Fecha Nac] 1000-01-01 00:00:00 [Codigo Limpio]95, [Bien Documentado]51, [Git God]29, [Arquitecto]75, [Detallista]6. [Puntuacion total] 64
+[26092025 21:30:20] ---- [ERROR] ---- [Errno 2] No such file or directory: ''
+[26092025 21:30:20] ---- [INFO] ---- Cerrando el sistema automaticamente
+[26092025 21:32:38] ---- [INFO] ---- Iniciado el sistema
+[26092025 21:32:41] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[26092025 21:32:51] ---- [INFO] ---- Heroe: [Nombre y Apellidos] Klark Kent [Fecha Nac] 1000-01-01 00:00:00 [Codigo Limpio]26, [Bien Documentado]87, [Git God]97, [Arquitecto]32, [Detallista]66. [Puntuacion total] 52
+[26092025 21:32:51] ---- [ERROR] ---- type object 'Helper' has no attribute 'r'
+[26092025 21:32:51] ---- [INFO] ---- Cerrando el sistema automaticamente
+[26092025 21:33:10] ---- [INFO] ---- Iniciado el sistema
+[26092025 21:33:12] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[26092025 21:33:23] ---- [INFO] ---- Heroe: [Nombre y Apellidos] Klark Kent [Fecha Nac] 1000-01-01 00:00:00 [Codigo Limpio]3, [Bien Documentado]74, [Git God]14, [Arquitecto]11, [Detallista]75. [Puntuacion total] 21
+[26092025 21:33:34] ---- [INFO] ---- El usuario finalizó la sesión

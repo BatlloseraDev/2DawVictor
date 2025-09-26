@@ -2,10 +2,13 @@
 
 #from numpy.f2py.auxfuncs import throw_error
 
-from clases.heroe import Heroe
-from clases.villano import Villano
+from modelos.heroe import Heroe
+from modelos.villano import Villano
 from datetime import datetime
-from log import Logger
+
+from utilidades.fileManager import FileManager
+from utilidades.helpers import Helper
+from utilidades.logger import Logger
 
 
 
@@ -61,11 +64,14 @@ def gestionAulaDeHeroesYVillanos(opcion):
         return False, f"algún campo no fue introducido correctamente en nombres{valores["nombre"]} o apellidos{valores["apellidos"]} "
 
     if opcion == 1:
-        return True,"héroe creado" ,Heroe(valores["nombre"], valores["apellidos"], valores["fecha_nacimiento"])
+        heroe = Heroe(valores["nombre"], valores["apellidos"], valores["fecha_nacimiento"])
+        return True,"héroe creado" ,heroe
     elif opcion == 2:
+        # guardar en data
         return True,"villano creado" ,Villano(valores["nombre"], valores["apellidos"], valores["fecha_nacimiento"])
     else:
         return False, "el desarrollador introdujo una opción no valida para probar"
+
 
 
 def main():
@@ -91,6 +97,11 @@ def main():
                 if resultado[0]:
                     listaPersonas.append(resultado[2])
                     log.log("INFO",resultado[2])
+                    guardado= Helper.convertirObjetoATexto(resultado[2])
+                    if guardado[0]:
+                        FileManager.guardar(Helper.devolverRutaGuardado(opcion),guardado[1])
+                    else:
+                        log.log("Error",f"error al guardar en la base de datos: {guardado[1]}")
 
                 else:
                     print(f"Error en la creación de personaje, volviendo al menú: {resultado[1]}")
