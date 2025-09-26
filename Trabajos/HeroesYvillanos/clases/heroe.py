@@ -1,5 +1,4 @@
 import random as r
-import numpy as np
 
 from clases.persona import Persona
 
@@ -18,8 +17,14 @@ class Heroe(Persona):
 
     def __calcular_puntuacion(self):
         contador = round(
-            self.__codigoLimpio * 0.4 + self.__bienDocumentado * 0.1 + self.__gitgod * 0.2 + self.__arquitecto * 0.2 + self.__detallista * 0.1)
+            self.__codigoLimpio * 0.4 + self.__bienDocumentado * 0.1 + self.__gitgod * 0.2 + self.__arquitecto * 0.2 + self.__detallista * 0.1) #ecuacion de importacia de atributos
         self.__puntuacion_total = contador
+
+
+    def __str__(self):
+        base = super().__str__()
+        return f"Heroe: {base} [Codigo Limpio]{self.__codigoLimpio}, [Bien Documentado]{self.__bienDocumentado}, [Git God]{self.__gitgod}, [Arquitecto]{self.__arquitecto}, [Detallista]{self.__detallista}. [Puntuacion total] {self.__puntuacion_total}"
+
 
     #getter and setter
     #estos parametros solo van a ser de get ya que lo calculo en la clase

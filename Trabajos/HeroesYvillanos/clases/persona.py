@@ -8,6 +8,10 @@ class Persona:
         self.__identificador = Persona.contador
         self.__puntuacion_total = 0
 
+    def __str__(self):
+        return f"[Nombre y Apellidos] {self.__nombre} {self.__apellidos} [Fecha Nac] {self.__fecha_nacimiento}"
+
+
     @property #solo get ya que set va a ser calculado por la propia clase al momento de crearse.
     def puntuacion_total(self):
         return self.__puntuacion_total

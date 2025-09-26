@@ -1,4 +1,6 @@
-from numpy.f2py.auxfuncs import throw_error
+
+
+#from numpy.f2py.auxfuncs import throw_error
 
 from clases.heroe import Heroe
 from clases.villano import Villano
@@ -8,7 +10,7 @@ from log import Logger
 
 
 
-def controladorTeclado(texto, tipoDato):
+def controladorTeclado(texto, tipoDato): #Para controlar los datos que pido por teclado
     texto = texto.strip() #controlo los espacios
     if tipoDato == "entero":
         try:
@@ -31,25 +33,32 @@ def menu():
     print("1) Para crear Heroe")
     print("2) Para crear Villano")
     print("3) Para buscar un heroe o villano")
-    print("4) Para salir")
+    print("4) Para enfrentar un heroe contra un villano")
+    print("5) Para salir")
+
+
 
 def gestionAulaDeHeroesYVillanos(opcion):
-    valores = {}
-    valores['nombre'] = controladorTeclado(input("Ingrese el nombre: "), "texto")
-    valores['apellidos'] = controladorTeclado(input("Ingrese los apellidos: "), "texto")
+    valores = {
+        'nombre': controladorTeclado(input("Ingrese el nombre: "), "texto"),
+        'apellidos': controladorTeclado(input("Ingrese los apellidos: "), "texto")}
 
     dia_nacimiento = controladorTeclado(input("Ingrese el dia nacimiento: "), "entero")
     mes_nacimiento = controladorTeclado(input("Ingrese el mes nacimiento: "), "entero")
     anio_nacimiento = controladorTeclado(input("Ingrese el anio nacimiento: "), "entero")
 
-    try:
-        fecha_nacimiento = datetime(anio_nacimiento, mes_nacimiento, dia_nacimiento)
-        valores['fecha_nacimiento'] = fecha_nacimiento
-    except:
-        return False, "la fecha no es valida"
+    if None in [dia_nacimiento, mes_nacimiento, anio_nacimiento]:
+        print("Fallo aquí")
+        return False, f"Algun campo de la fecha no fue valido, será representado con None: d{dia_nacimiento}, m{mes_nacimiento}, y{anio_nacimiento}"
+    else:
+        try:
+            fecha_nacimiento = datetime(anio_nacimiento, mes_nacimiento, dia_nacimiento)
+            valores['fecha_nacimiento'] = fecha_nacimiento
+        except Exception as e:
+            return False, f"la fecha no es valida: {e}"
 
-    if None in valores:
-        return False, "algún campo no fue introducido correctamente"
+    if None in valores.values():
+        return False, f"algún campo no fue introducido correctamente en nombres{valores["nombre"]} o apellidos{valores["apellidos"]} "
 
     if opcion == 1:
         return True,"héroe creado" ,Heroe(valores["nombre"], valores["apellidos"], valores["fecha_nacimiento"])
@@ -62,30 +71,37 @@ def gestionAulaDeHeroesYVillanos(opcion):
 def main():
     listaPersonas = []
     log = Logger()
-
+    log.log("INFO","Iniciado el sistema")
     try:
         while True:
             menu()
-            opcion = int(input("Que eliges"))
+            opcion = int(input("Que eliges\n"))
 
             if opcion == 3:
                 print("buscando..")
-            elif opcion == 4:
+            elif opcion == 5:
+                log.log("INFO","El usuario finalizó la sesión")
                 break
-            elif opcion >= 5 or opcion <= 0:
-                print("Selecciona una opcion valida")
+            elif opcion >= 6 or opcion <= 0:
+                print("Opción invalida")
+                log.log("ALERT",f"El usuario es especial y no introdujo correctamete la opción: {opcion}")
             else:
+                log.log("INFO","Iniciado el proceso de creación de Héroe o Villano")
                 resultado = gestionAulaDeHeroesYVillanos(opcion)
                 if resultado[0]:
                     listaPersonas.append(resultado[2])
                     log.log("INFO",resultado[2])
 
                 else:
-                    throw_error(listaPersonas[1])
+                    print(f"Error en la creación de personaje, volviendo al menú: {resultado[1]}")
+                    log.log("ERROR",f"Hubo un error creando el personaje: {resultado[1]}")
 
 
     except Exception as e:
-        log.log("ERROR", e)
+        log.log("ERROR", f"{e}") # {traceback.format_exc()} para devolver la ultima linea del error
+        log.log("INFO","Cerrando el sistema automaticamente")
+    except KeyboardInterrupt:
+        log.log("INFO", "El usuario cerró el programa abruptamente")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,5 @@
+[26092025 19:10:22] ---- [INFO] ---- Iniciado el sistema
+[26092025 19:10:24] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[26092025 19:10:39] ---- [ERROR] ---- Hubo un error creando el personaje: algún campo no fue introducido correctamente en nombresNone o apellidosasf 
+[26092025 19:15:59] ---- [INFO] ---- Iniciado el sistema
+[26092025 19:16:05] ---- [INFO] ---- El usuario cerró el programa abruptamente
