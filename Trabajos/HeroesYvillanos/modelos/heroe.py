@@ -6,8 +6,8 @@ class Heroe(Persona):
 
 
 
-    def __init__(self, nombre, apellidos, fecha_nacimiento, **kwargs):
-        super().__init__(nombre, apellidos, fecha_nacimiento)
+    def __init__(self, nombre, apellidos, fecha_nacimiento, identificador, **kwargs):
+        super().__init__(nombre, apellidos, fecha_nacimiento, identificador)
         self.__codigoLimpio = kwargs.get("codigoLimpio",generarValorAleatorio())
         self.__bienDocumentado= kwargs.get("bienDocumentado",generarValorAleatorio())
         self.__gitgod= kwargs.get("gitgod",generarValorAleatorio())
@@ -30,12 +30,21 @@ class Heroe(Persona):
     #estos parametros solo van a ser de get ya que lo calculo en la clase
     @property
     def codigoLimpio(self):
-        return self.codigoLimpio
+        return self.__codigoLimpio
 
 
     @property
     def bienDocumentado(self):
-        return self.bienDocumentado
+        return self.__bienDocumentado
+    @property
+    def gitgod(self):
+        return self.__gitgod
+    @property
+    def arquitecto(self):
+        return self.__arquitecto
+    @property
+    def detallista(self):
+        return self.__detallista
 
 
 

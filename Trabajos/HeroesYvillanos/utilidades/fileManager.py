@@ -1,13 +1,22 @@
 import os
 
+from utilidades.helpers import Helper
+
+
 class FileManager:
 
     @staticmethod
     def lector(ruta):
+        informacionParseada= []
         if not os.path.exists(ruta):
             return False, "La ruta no existe"
         with open(ruta,"r",encoding="utf-8") as f:
-            return f.read()
+            linea = f.read().splitlines()
+            for datos in linea:
+
+                informacionParseada.append(Helper.convertirTextoAObjeto(datos))
+
+            return True, "información leida correctamente",informacionParseada
 
     @staticmethod
     def guardar(ruta, contenido):

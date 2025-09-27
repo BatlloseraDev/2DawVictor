@@ -17,7 +17,7 @@ class Logger:
         timestamp = datetime.now().strftime("%d%m%Y %H:%M:%S")
         linea_log = f"[{timestamp}] ---- [{tipo}] ---- {mensaje}\n"
 
-        with open(self.nombre_fichero, 'a',encoding='utf-8') as f:
+        with open(self.nombre_fichero, 'a',encoding='utf-8') as f: #el encoding es por si se mete una ñ o algun caracter por el estilo
             f.write(linea_log)
             print(f"Guardado en log:{linea_log}")
 

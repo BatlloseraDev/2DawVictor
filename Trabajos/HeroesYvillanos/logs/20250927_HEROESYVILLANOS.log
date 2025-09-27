@@ -1,0 +1,184 @@
+[27092025 11:49:01] ---- [INFO] ---- Iniciado el sistema
+[27092025 11:49:07] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[27092025 11:49:35] ---- [ERROR] ---- 'NoneType' object has no attribute 'append'
+[27092025 11:49:35] ---- [INFO] ---- Cerrando el sistema automaticamente
+[27092025 11:50:09] ---- [INFO] ---- Iniciado el sistema
+[27092025 11:50:12] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[27092025 11:50:31] ---- [ERROR] ---- 'NoneType' object has no attribute 'append'
+[27092025 11:50:31] ---- [INFO] ---- Cerrando el sistema automaticamente
+[27092025 11:51:03] ---- [INFO] ---- Iniciado el sistema
+[27092025 11:51:15] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[27092025 11:51:27] ---- [ERROR] ---- 'tuple' object has no attribute 'append'
+[27092025 11:51:27] ---- [INFO] ---- Cerrando el sistema automaticamente
+[27092025 12:06:45] ---- [INFO] ---- Iniciado el sistema
+[27092025 12:07:08] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 12:09:06] ---- [INFO] ---- Iniciado el sistema
+[27092025 12:09:08] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[27092025 12:09:16] ---- [INFO] ---- Heroe: [Nombre y Apellidos] pepe villuela [Fecha Nac] 1212-12-12 00:00:00 [Codigo Limpio]58, [Bien Documentado]100, [Git God]94, [Arquitecto]49, [Detallista]73. [Puntuacion total] 69
+[27092025 12:09:16] ---- [INFO] ---- El personaje fue guardado correctamente en la base de datos
+[27092025 12:09:19] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[27092025 12:09:43] ---- [INFO] ---- Heroe: [Nombre y Apellidos] sanic hedgefox [Fecha Nac] 1000-01-01 00:00:00 [Codigo Limpio]76, [Bien Documentado]45, [Git God]42, [Arquitecto]88, [Detallista]10. [Puntuacion total] 62
+[27092025 12:09:43] ---- [INFO] ---- El personaje fue guardado correctamente en la base de datos
+[27092025 12:09:45] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[27092025 12:09:59] ---- [INFO] ---- Villano: [Nombre y Apellidos] klark kent [Fecha Nac] 2000-02-02 00:00:00 [Chatgepeteador]21, [Entregador Tardio]63, [Ausencias]41, [Hablador]97. [Puntuacion total] 43
+[27092025 12:09:59] ---- [INFO] ---- El personaje fue guardado correctamente en la base de datos
+[27092025 12:10:03] ---- [INFO] ---- El usuario finalizó la sesión
+[27092025 12:10:13] ---- [INFO] ---- Iniciado el sistema
+[27092025 12:11:36] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 12:15:14] ---- [INFO] ---- Iniciado el sistema
+[27092025 12:15:22] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[27092025 12:15:35] ---- [INFO] ---- Heroe: [Nombre y Apellidos] pepe villuela [Fecha Nac] 0001-01-01 00:00:00 [Codigo Limpio]81, [Bien Documentado]82, [Git God]82, [Arquitecto]24, [Detallista]63. [Puntuacion total] 68
+[27092025 12:15:35] ---- [INFO] ---- El personaje fue guardado correctamente en la base de datos
+[27092025 12:16:00] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[27092025 12:16:43] ---- [INFO] ---- Villano: [Nombre y Apellidos] batman dc [Fecha Nac] 0002-02-02 00:00:00 [Chatgepeteador]48, [Entregador Tardio]10, [Ausencias]56, [Hablador]87. [Puntuacion total] 41
+[27092025 12:16:43] ---- [INFO] ---- El personaje fue guardado correctamente en la base de datos
+[27092025 12:16:48] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[27092025 12:16:57] ---- [INFO] ---- Heroe: [Nombre y Apellidos] klark kent [Fecha Nac] 0003-03-03 00:00:00 [Codigo Limpio]80, [Bien Documentado]22, [Git God]97, [Arquitecto]84, [Detallista]61. [Puntuacion total] 76
+[27092025 12:16:57] ---- [INFO] ---- El personaje fue guardado correctamente en la base de datos
+[27092025 12:17:01] ---- [INFO] ---- El usuario finalizó la sesión
+[27092025 12:17:05] ---- [INFO] ---- Iniciado el sistema
+[27092025 12:17:34] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 12:19:04] ---- [INFO] ---- Iniciado el sistema
+[27092025 12:19:26] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 12:44:47] ---- [INFO] ---- Iniciado el sistema
+[27092025 12:45:58] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 12:47:37] ---- [INFO] ---- Iniciado el sistema
+[27092025 12:47:53] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 12:49:04] ---- [INFO] ---- Iniciado el sistema
+[27092025 12:51:43] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 12:51:48] ---- [INFO] ---- Iniciado el sistema
+[27092025 12:52:06] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 12:53:13] ---- [INFO] ---- Iniciado el sistema
+[27092025 12:57:35] ---- [INFO] ---- Iniciado el sistema
+[27092025 12:58:25] ---- [INFO] ---- Iniciado el sistema
+[27092025 12:59:04] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 13:24:54] ---- [INFO] ---- Iniciado el sistema
+[27092025 13:24:54] ---- [INFO] ---- Información de los heroes recuperada de la base de datos exitosamente: informacion leida correctamente
+[27092025 13:24:54] ---- [INFO] ---- Información de los villano recuperada de la base de datos exitosamente: informacion leida correctamente
+[27092025 13:25:02] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 13:29:22] ---- [INFO] ---- Iniciado el sistema
+[27092025 13:29:22] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: informacion leida correctamente
+[27092025 13:29:22] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: informacion leida correctamente
+[27092025 13:29:59] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 13:30:46] ---- [INFO] ---- Iniciado el sistema
+[27092025 13:30:46] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 13:30:46] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 13:31:22] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 13:32:25] ---- [INFO] ---- Iniciado el sistema
+[27092025 13:32:25] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 13:32:25] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 13:32:55] ---- [INFO] ---- El usuario finalizó la sesión
+[27092025 15:41:40] ---- [INFO] ---- Iniciado el sistema
+[27092025 15:41:40] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 15:41:40] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 15:42:21] ---- [INFO] ---- se encontró una coincidencia: Heroe: [Nombre y Apellidos] pepe villuela [Fecha Nac] 0001-01-01 [Codigo Limpio]68, [Bien Documentado]81, [Git God]82, [Arquitecto]82, [Detallista]24. [Puntuacion total] 71
+[27092025 15:42:21] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[27092025 15:42:57] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 15:44:30] ---- [INFO] ---- Iniciado el sistema
+[27092025 15:44:30] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 15:44:30] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 15:44:45] ---- [INFO] ---- se encontró una coincidencia: Heroe: [Nombre y Apellidos] pepe villuela [Fecha Nac] 0001-01-01 [Codigo Limpio]68, [Bien Documentado]81, [Git God]82, [Arquitecto]82, [Detallista]24. [Puntuacion total] 71
+[27092025 15:44:45] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[27092025 15:45:01] ---- [ERROR] ---- Hubo un error creando el personaje: Algun campo de la fecha no fue valido, será representado con None: dNone, mNone, yNone
+[27092025 15:45:51] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 15:46:14] ---- [INFO] ---- Iniciado el sistema
+[27092025 15:46:14] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 15:46:14] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 15:46:32] ---- [INFO] ---- no se encontró ninguna coincidencia con el valor: 20
+[27092025 15:46:32] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[27092025 15:47:01] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 15:47:25] ---- [INFO] ---- Iniciado el sistema
+[27092025 15:47:25] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 15:47:25] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 15:47:34] ---- [ERROR] ---- El usuario introdujo un dato erroneo: list index out of range
+[27092025 15:47:55] ---- [INFO] ---- El usuario finalizó la sesión
+[27092025 15:53:37] ---- [INFO] ---- Iniciado el sistema
+[27092025 15:53:37] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 15:53:37] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 15:54:29] ---- [ERROR] ---- El usuario introdujo un dato erroneo: 'Heroe' object has no attribute 'detallista'
+[27092025 15:54:42] ---- [INFO] ---- El usuario finalizó la sesión
+[27092025 15:55:48] ---- [INFO] ---- Iniciado el sistema
+[27092025 15:55:48] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 15:55:48] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 15:56:10] ---- [ERROR] ---- El usuario introdujo un dato erroneo: maximum recursion depth exceeded
+[27092025 15:56:29] ---- [INFO] ---- El usuario finalizó la sesión
+[27092025 15:57:43] ---- [INFO] ---- Iniciado el sistema
+[27092025 15:57:43] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 15:57:43] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 15:57:46] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[27092025 15:57:52] ---- [ERROR] ---- El usuario introdujo un dato erroneo: 'Villano' object has no attribute 'detallista'
+[27092025 15:58:35] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 16:02:17] ---- [INFO] ---- Iniciado el sistema
+[27092025 16:02:17] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 16:02:17] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 16:02:21] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[27092025 16:02:27] ---- [ERROR] ---- El usuario introdujo un dato erroneo: 'Villano' object has no attribute 'detallista'
+[27092025 16:02:36] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 16:05:59] ---- [INFO] ---- Iniciado el sistema
+[27092025 16:05:59] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 16:05:59] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 16:06:02] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[27092025 16:06:08] ---- [INFO] ---- no se encontró ninguna coincidencia con el valor: 80
+[27092025 16:06:26] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 16:16:40] ---- [INFO] ---- Iniciado el sistema
+[27092025 16:16:40] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 16:16:40] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 16:16:45] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[27092025 16:17:36] ---- [INFO] ---- no se encontró ninguna coincidencia con el valor: 0001-01-01
+[27092025 16:18:04] ---- [INFO] ---- El usuario finalizó la sesión
+[27092025 16:20:49] ---- [INFO] ---- Iniciado el sistema
+[27092025 16:20:49] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 16:20:49] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 16:20:52] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[27092025 16:20:57] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 16:20:58] ---- [INFO] ---- Iniciado el sistema
+[27092025 16:20:58] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 16:20:58] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 16:21:01] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[27092025 16:21:09] ---- [INFO] ---- no se encontró ninguna coincidencia con el valor: 68
+[27092025 16:21:21] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[27092025 16:21:26] ---- [INFO] ---- se encontró una coincidencia: Heroe: [Nombre y Apellidos] pepe villuela [Fecha Nac] 0001-01-01 [Codigo Limpio]68, [Bien Documentado]81, [Git God]82, [Arquitecto]82, [Detallista]24. [Puntuacion total] 71
+[27092025 16:21:58] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[27092025 16:22:12] ---- [ERROR] ---- El usuario introdujo un dato erroneo: invalid literal for int() with base 10: ''
+[27092025 16:22:17] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[27092025 16:22:26] ---- [INFO] ---- no se encontró ninguna coincidencia con el valor: 68
+[27092025 16:22:30] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[27092025 16:22:40] ---- [INFO] ---- no se encontró ninguna coincidencia con el valor: 81
+[27092025 16:24:55] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 16:25:47] ---- [INFO] ---- Iniciado el sistema
+[27092025 16:25:47] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 16:25:47] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 16:25:52] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[27092025 16:25:58] ---- [INFO] ---- se encontró una coincidencia: Heroe: [Nombre y Apellidos] pepe villuela [Fecha Nac] 0001-01-01 [Codigo Limpio]68, [Bien Documentado]81, [Git God]82, [Arquitecto]82, [Detallista]24. [Puntuacion total] 71
+[27092025 16:28:46] ---- [INFO] ---- El usuario finalizó la sesión
+[27092025 16:29:20] ---- [INFO] ---- Iniciado el sistema
+[27092025 16:29:20] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 16:29:20] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 16:29:24] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[27092025 16:29:58] ---- [INFO] ---- Villano: [Nombre y Apellidos] joker el jajas [Fecha Nac] 2001-04-03 [Chatgepeteador]32, [Entregador Tardio]69, [Ausencias]78, [Hablador]42. [Puntuacion total] 49
+[27092025 16:29:58] ---- [INFO] ---- El personaje fue guardado correctamente en la base de datos
+[27092025 16:30:06] ---- [INFO] ---- El usuario finalizó la sesión
+[27092025 17:06:25] ---- [INFO] ---- Iniciado el sistema
+[27092025 17:06:25] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 17:06:25] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 17:06:29] ---- [INFO] ---- enfrentamiento encontrado entre: Heroe: [Nombre y Apellidos] pepe villuela [Fecha Nac] 0001-01-01 [Codigo Limpio]68, [Bien Documentado]81, [Git God]82, [Arquitecto]82, [Detallista]24. [Puntuacion total] 71 y Villano: [Nombre y Apellidos] batman dc [Fecha Nac] 0002-02-02 [Chatgepeteador]41, [Entregador Tardio]48, [Ausencias]10, [Hablador]56. [Puntuacion total] 42
+[27092025 17:06:29] ---- [INFO] ---- Ganó el personaje: pepe
+[27092025 17:07:03] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 17:08:02] ---- [INFO] ---- Iniciado el sistema
+[27092025 17:08:02] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 17:08:02] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 17:08:04] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[27092025 17:08:31] ---- [INFO] ---- Heroe: [Nombre y Apellidos] Francisco Alia [Fecha Nac] 1993-06-06 [Codigo Limpio]17, [Bien Documentado]96, [Git God]57, [Arquitecto]66, [Detallista]49. [Puntuacion total] 46
+[27092025 17:08:31] ---- [INFO] ---- El personaje fue guardado correctamente en la base de datos
+[27092025 17:09:14] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[27092025 17:09:56] ---- [INFO] ---- Villano: [Nombre y Apellidos] Matlab el software [Fecha Nac] 1984-01-01 [Chatgepeteador]92, [Entregador Tardio]93, [Ausencias]63, [Hablador]49. [Puntuacion total] 85
+[27092025 17:09:56] ---- [INFO] ---- El personaje fue guardado correctamente en la base de datos
+[27092025 17:10:23] ---- [INFO] ---- enfrentamiento encontrado entre: Heroe: [Nombre y Apellidos] Francisco Alia [Fecha Nac] 1993-06-06 [Codigo Limpio]17, [Bien Documentado]96, [Git God]57, [Arquitecto]66, [Detallista]49. [Puntuacion total] 46 y Villano: [Nombre y Apellidos] Matlab el software [Fecha Nac] 1984-01-01 [Chatgepeteador]92, [Entregador Tardio]93, [Ausencias]63, [Hablador]49. [Puntuacion total] 85
+[27092025 17:10:23] ---- [INFO] ---- Ganó el personaje: Matlab
+[27092025 17:10:59] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[27092025 17:12:14] ---- [INFO] ---- Iniciado el sistema
+[27092025 17:12:14] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 17:12:14] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[27092025 17:12:30] ---- [INFO] ---- enfrentamiento encontrado entre: Heroe: [Nombre y Apellidos] klark kent [Fecha Nac] 0003-03-03 [Codigo Limpio]76, [Bien Documentado]80, [Git God]22, [Arquitecto]97, [Detallista]84. [Puntuacion total] 71 y Villano: [Nombre y Apellidos] batman dc [Fecha Nac] 0002-02-02 [Chatgepeteador]41, [Entregador Tardio]48, [Ausencias]10, [Hablador]56. [Puntuacion total] 42
+[27092025 17:12:30] ---- [INFO] ---- Ganó el personaje: klark
+[27092025 17:12:38] ---- [INFO] ---- El usuario finalizó la sesión

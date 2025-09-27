@@ -1,11 +1,14 @@
 class Persona:
     contador = 0
-    def __init__(self, nombre, apellidos, fecha_nacimiento):
+    def __init__(self, nombre, apellidos, fecha_nacimiento, identificador):
         self.__nombre = nombre
         self.__apellidos = apellidos
         self.__fecha_nacimiento = fecha_nacimiento
         Persona.contador += 1
-        self.__identificador = Persona.contador
+        if identificador is None:
+            self.__identificador = Persona.contador
+        else:
+            self.__identificador = identificador
         self._puntuacion_total = 0
 
     def __str__(self):
