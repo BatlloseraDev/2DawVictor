@@ -1,0 +1,68 @@
+[29092025 13:06:21] ---- [INFO] ---- Iniciado el sistema
+[29092025 13:06:21] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:06:21] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:06:34] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[29092025 13:06:51] ---- [INFO] ---- Heroe: [Nombre y Apellidos] puf daw [Fecha Nac] 1212-12-12 [Codigo Limpio]85, [Bien Documentado]11, [Git God]57, [Arquitecto]11, [Detallista]87. [Puntuacion total] 57
+[29092025 13:06:51] ---- [INFO] ---- El personaje fue guardado correctamente en la base de datos
+[29092025 13:07:04] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[29092025 13:07:13] ---- [ERROR] ---- El usuario introdujo un dato erroneo: 'NoneType' object has no attribute 'nombre'
+[29092025 13:07:48] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[29092025 13:08:57] ---- [INFO] ---- Inici1ado el sistema
+[29092025 13:08:57] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:08:57] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:09:00] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[29092025 13:09:06] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[29092025 13:09:08] ---- [INFO] ---- Inici1ado el sistema
+[29092025 13:09:08] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:09:08] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:09:11] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[29092025 13:09:17] ---- [INFO] ---- se encontró una coincidencia: Heroe: [Nombre y Apellidos] puf daw [Fecha Nac] 1212-12-12 [Codigo Limpio]57, [Bien Documentado]85, [Git God]11, [Arquitecto]57, [Detallista]11. [Puntuacion total] 46
+[29092025 13:09:17] ---- [ERROR] ---- El usuario introdujo un dato erroneo: 'NoneType' object has no attribute 'nombre'
+[29092025 13:10:15] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[29092025 13:10:17] ---- [INFO] ---- Inici1ado el sistema
+[29092025 13:10:17] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:10:17] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:10:25] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[29092025 13:13:00] ---- [INFO] ---- se encontró una coincidencia: Heroe: [Nombre y Apellidos] puf daw [Fecha Nac] 1212-12-12 [Codigo Limpio]57, [Bien Documentado]85, [Git God]11, [Arquitecto]57, [Detallista]11. [Puntuacion total] 46
+[29092025 13:13:21] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[29092025 13:13:48] ---- [INFO] ---- Inici1ado el sistema
+[29092025 13:13:48] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:13:48] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:13:51] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[29092025 13:13:53] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[29092025 13:14:00] ---- [INFO] ---- Inici1ado el sistema
+[29092025 13:14:00] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:14:00] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:14:02] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[29092025 13:14:05] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[29092025 13:14:08] ---- [INFO] ---- Inici1ado el sistema
+[29092025 13:14:08] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:14:08] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:14:10] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[29092025 13:14:14] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[29092025 13:14:16] ---- [INFO] ---- Inici1ado el sistema
+[29092025 13:14:16] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:14:16] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:14:18] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[29092025 13:15:39] ---- [INFO] ---- se encontró una coincidencia: Heroe: [Nombre y Apellidos] puf daw [Fecha Nac] 1212-12-12 [Codigo Limpio]57, [Bien Documentado]85, [Git God]11, [Arquitecto]57, [Detallista]11. [Puntuacion total] 46
+[29092025 13:18:10] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[29092025 13:23:47] ---- [INFO] ---- Inici1ado el sistema
+[29092025 13:23:47] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:25:27] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[29092025 13:27:27] ---- [INFO] ---- Inici1ado el sistema
+[29092025 13:27:27] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:27:27] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:29:06] ---- [INFO] ---- Iniciado el proceso de busqueda de personaje
+[29092025 13:29:16] ---- [INFO] ---- se encontró una coincidencia: Heroe: [Nombre y Apellidos] puf daw [Fecha Nac] 1212-12-12 [Codigo Limpio]57, [Bien Documentado]85, [Git God]11, [Arquitecto]57, [Detallista]11. [Puntuacion total] 46
+[29092025 13:29:22] ---- [INFO] ---- El usuario cerró el programa abruptamente
+[29092025 13:48:46] ---- [INFO] ---- Inici1ado el sistema
+[29092025 13:48:46] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:48:46] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:48:48] ---- [INFO] ---- Iniciado el proceso de creación de Héroe o Villano
+[29092025 13:49:38] ---- [INFO] ---- Villano: [Nombre y Apellidos] smaug el dragon [Fecha Nac] 1010-10-10 [Chatgepeteador]74, [Entregador Tardio]87, [Ausencias]50, [Hablador]73. [Puntuacion total] 75
+[29092025 13:49:38] ---- [INFO] ---- El personaje fue guardado correctamente en la base de datos
+[29092025 13:49:43] ---- [INFO] ---- El usuario finalizó la sesión
+[29092025 13:52:43] ---- [INFO] ---- Inici1ado el sistema
+[29092025 13:52:52] ---- [INFO] ---- Información de los Héroes recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:52:56] ---- [INFO] ---- Información de los Villanos recuperada de la base de datos exitosamente: información leida correctamente
+[29092025 13:53:09] ---- [INFO] ---- El usuario cerró el programa abruptamente

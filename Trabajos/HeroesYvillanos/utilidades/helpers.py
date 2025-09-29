@@ -21,7 +21,7 @@ class Helper:
 
 
         elif type(objeto) is Villano :
-            texto += "Vilano/"
+            texto += "Villano/"
             arrais = vars(objeto)
             for key, value in arrais.items():
                 texto += f"{value}/"

@@ -175,7 +175,7 @@ def iniciar_enfrentamiento(listaPersonas,log):
 
 def main(): #main donde se desarrolla el programa
     log = Logger()
-    log.log("INFO","Iniciado el sistema")
+    log.log("INFO","Inici1ado el sistema")
 
     #volcado inicial de datos
     listaPersonas = []
